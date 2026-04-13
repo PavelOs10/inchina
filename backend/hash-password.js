@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+// Usage: node hash-password.js <your-password>
+// Put the output into .env as ADMIN_PASSWORD
+
+import bcrypt from 'bcrypt';
+
+const password = process.argv[2];
+if (!password) {
+  console.error('Usage: node hash-password.js <password>');
+  process.exit(1);
+}
+
+const hash = await bcrypt.hash(password, 12);
+console.log(hash);
