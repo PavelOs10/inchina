@@ -46,7 +46,6 @@ import quarterZipNavy from "figma:asset/a19de28353647b35dd0aa93eb3863307c429249d
 import stripeZipRetro from "figma:asset/e4cb8769ac44620d83f499dd44f0d1a6dfcc3076.png";
 // Batch 5
 import cableNavyCrew from "figma:asset/9e71fe6576448faa5242188ae379b780ae8f9eda.png";
-import abstractFlame from "figma:asset/db6c342c900ffe136b7318c3bf8028316b29293a.png";
 import mockGreySolid from "figma:asset/3d66c8072ada27543ed05421c6479ac4dc338bff.png";
 import navyMarlDetail from "figma:asset/1a0776ff2539dc125836f3238026f2ae8c4f8e37.png";
 import cableCamelCrew from "figma:asset/df3c083454916ce94531d11222bf40dfb4065a20.png";
@@ -386,7 +385,6 @@ function CatalogSection() {
     { img: quarterZipNavy,     name: "Navy Zip",      code: "KW-034" },
     { img: stripeZipRetro,     name: "Retro Stripe",  code: "KW-035" },
     { img: cableNavyCrew,      name: "Navy Cable",    code: "KW-036" },
-    { img: abstractFlame,      name: "Flame Knit",    code: "KW-037" },
     { img: mockGreySolid,      name: "Grey Mock",     code: "KW-038" },
     { img: navyMarlDetail,     name: "Navy Marl",     code: "KW-039" },
     { img: cableCamelCrew,     name: "Camel Cable",   code: "KW-040" },
